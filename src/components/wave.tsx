@@ -154,7 +154,7 @@ const Wave = ({ size, value }: Props) => {
       {/* <Path path={clipPath} color="#178BCA" /> */}
       {/* clip everything inside this group with clip path */}
       <Group clip={clipPath}>
-        <Circle cx={radius} cy={radius} r={fillCircleRadius} color="#686DF3" />
+        <Circle cx={radius} cy={radius} r={fillCircleRadius} color="#945AF2" />
 
         {/* Text which will be drawn under the wave (water) */}
         <Text

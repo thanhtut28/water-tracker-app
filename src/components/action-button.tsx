@@ -10,19 +10,20 @@ const ActionButton = ({ children, variant = 'primary', ...props }: Props) => {
     <View flexDirection="row" justifyContent="center">
       <Button
         w="100%"
+        h={16}
         size="lg"
-        borderRadius={10}
+        borderRadius={18}
         borderWidth={1}
         _pressed={{
           bg: variant === 'primary' ? 'primary.700' : 'warmGray.200',
           _text: {
-            color: 'warmGray.50'
+            color: 'secondary.900'
           }
         }}
         borderColor={variant === 'primary' ? 'transparent' : 'warmGray.50'}
         bg={variant === 'primary' ? 'primary.900' : 'warmGray.50'}
         _text={{
-          color: variant === 'primary' ? 'warmGray.50' : 'warmGray.50',
+          color: variant === 'primary' ? 'secondary.900' : 'secondary.900',
           fontSize: 18,
           alignSelf: 'center',
           fontWeight: 'bold'
